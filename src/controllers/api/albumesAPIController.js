@@ -22,7 +22,7 @@ const albumesAPIController = {
         }
     },
 
-    ///...Detalle de un álbum asociado a un ('id') de un artista indicado en la ruta...
+    //////...Detalle de un álbum asociado a un ('id') de un artista indicado en la ruta...
     // detail: async (req, res) => {
     //     try {
     //         const {id} = req.params
@@ -39,11 +39,11 @@ const albumesAPIController = {
     //         })
     //         // return res.send('Devuelve el detalle de un album asociado a un (" id ") de un artista indicado en la ruta o en la query string.');
     //     } catch (error) {
-    //         res.send(error.message);
+    //          console.log(error.message);
     //     }
     // },
 
-    ///...Detalle de un álbum segun ('id') indicado en la ruta, asociado a un de un artista...
+    //////...Detalle de un álbum segun ('id') indicado en la ruta, asociado a un de un artista...
     detail: async (req, res) => {
         try {
             const {id} = req.params
@@ -60,7 +60,7 @@ const albumesAPIController = {
             })
             // return res.send('Devuelve el detalle de un album asociado a un (" id ") de un artista indicado en la ruta o en la query string.');
         } catch (error) {
-            res.send(error.message);
+            console.log(error.message);
         }
     }
 }

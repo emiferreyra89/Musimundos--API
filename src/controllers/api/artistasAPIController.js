@@ -16,7 +16,7 @@ const artistasAPIController = {
             })
             //return res.send(artistas);
         } catch (error) {
-            res.status(400).send(error.message)
+            console.log(error.message);
         }
     },
 
